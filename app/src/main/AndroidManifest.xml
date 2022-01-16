@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ceceply.learnmaterialx">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearnMaterialX">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.bottomnavigation.BottomNavigationShifting" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.bottomnavigation.BottomNavigationBadgeBlink" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.bottomnavigation.BottomNavigationAnimated" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.bottomsheet.BottomSheetFloating" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.bottomsheet.BottomSheetPlayer" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.bottomsheet.BottomSheetTransform" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.sidesheet.SideSheetBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.button.ButtonBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.button.FabMoreText" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.button.ButtonMaterial" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.button.FabExpand" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.backdrop.BackdropNavigation" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.card.CardBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.card.CardWizardOverlap" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.card.CardExpand" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.chip.ChipBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.chip.ChipTag" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.chip.ChipGroup" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.chip.ChipFilter" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.checkradio.CheckboxBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.checkradio.RadioSwitchBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.checkradio.CheckboxParentChild" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.dialog.DialogBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.dialog.DialogCustom" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.dialog.DialogCustomInfo" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.dialog.DialogAddReview" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.dialog.DialogGDPRBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.dialog.DialogHeader" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.dialog.DialogImage" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.motion.MotionCard" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.motion.MotionPageCardDetails" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.motion.MotionList" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.motion.MotionInboxDetails" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.motion.MotionFab" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.motion.MotionPageBasicDetails" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.expansionpanel.ExpansionPanelInvoice" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.expansionpanel.ExpansionPanelTicket" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.gridlist.GridTwoLine" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.gridlist.GridSectioned" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.list.ListSectioned" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.list.ListAnimation" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.list.ListExpand" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.list.ListDrag" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.list.ListSwipe" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.list.ListMultiSelection" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.menu.MenuDrawerMail" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.menu.MenuDrawerSimpleLight" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.menu.MenuDrawerFilter" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.menu.MenuDrawerAdmin" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.menu.MenuDrawerBottom" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.menu.MenuDrawerSliderSimple" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.menu.MenuDrawerBack" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.banner.BannerInfo" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.picker.PickerDateLight" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.picker.PickerTimeLight" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.picker.PickerColor" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.picker.PickerLocation" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressLinearCenter" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressCircleCenter" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressOnScroll" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressPullRefresh" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressDotsBounce" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressButton" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressButtonSide" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressButtonPercent" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.progressactivity.ProgressButtonDone" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.slider.SliderLight" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.slider.SliderRange" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.snackbartoast.SnackbarToastBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.snackbartoast.ToastCustom" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.snackbartoast.SnackbarCustom" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.stepper.StepperDots" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.stepper.StepperVertical" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.stepper.StepperWizardLight" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.tabs.TabsLight" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.tabs.TabsIcon" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.tabs.TabsScroll" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.tabs.TabsSimpleGreen" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.tabs.TabsSimpleTopIndicator" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.form.FormWithIcon" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.form.FormSignupCard" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.form.FormSignupImageOutline" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.form.FormMaterialBasic" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.form.FormMaterialIcon" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.form.FormMaterialPrefixSuffix" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.toolbar.ToolbarCollapse" android:theme="@style/AppTheme.Material" />
+        <activity android:name=".activity.toolbar.ToolbarCollapsePin" android:theme="@style/AppTheme.Material" />
+
+    </application>
+
+</manifest>
