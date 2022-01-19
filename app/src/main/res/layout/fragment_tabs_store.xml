@@ -99,8 +99,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="?attr/selectableItemBackgroundBorderless"
-                            android:tint="@color/grey_40"
-                            app:srcCompat="@drawable/ic_more_vert" />
+                            app:srcCompat="@drawable/ic_more_vert"
+                            app:tint="@color/grey_40" />
 
                     </LinearLayout>
 
@@ -160,8 +160,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="?attr/selectableItemBackgroundBorderless"
-                            android:tint="@color/grey_40"
-                            app:srcCompat="@drawable/ic_more_vert" />
+                            app:srcCompat="@drawable/ic_more_vert"
+                            app:tint="@color/grey_40" />
 
                     </LinearLayout>
 
@@ -391,8 +391,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="?attr/selectableItemBackgroundBorderless"
-                            android:tint="@color/grey_40"
-                            app:srcCompat="@drawable/ic_more_vert" />
+                            app:srcCompat="@drawable/ic_more_vert"
+                            app:tint="@color/grey_40" />
 
                     </LinearLayout>
 
@@ -452,8 +452,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:background="?attr/selectableItemBackgroundBorderless"
-                            android:tint="@color/grey_40"
-                            app:srcCompat="@drawable/ic_more_vert" />
+                            app:srcCompat="@drawable/ic_more_vert"
+                            app:tint="@color/grey_40" />
 
                     </LinearLayout>
 

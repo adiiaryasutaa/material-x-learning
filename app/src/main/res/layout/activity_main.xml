@@ -7,696 +7,696 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ScrollView
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:layout_editor_absoluteX="1dp"
+      tools:layout_editor_absoluteY="1dp">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="24dp">
-
-            <Button
-                android:id="@+id/bottomNavShiftingButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Bottom Navigation (Shifting)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/bottomNavBagdeBlinkButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Bottom Navigation (Bagde Blink)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/bottomNavAnimatedButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Bottom Navigation (Animated)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/bottomSheetFloatingButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Bottom Sheet (Floating)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/bottomSheetPlayerButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Bottom Sheet (Player)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/bottomSheetTransformButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Bottom Sheet (Transform)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/sideSheetBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Side Sheet (Basic)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/buttonsBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Buttons (Basic, Try Few Buttons)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/buttonsFABMoreTextButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Buttons (Fab More Text)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/buttonsMaterialButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Buttons (Material) (Group, Check icon, select icon)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/buttonsFABExpandButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Buttons (FAB Expand)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/buttonsBackdropNavButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Backdrop (Navigation)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/cardsBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Cards (Basic, Try Few Cards)(Full, 1/2 layout)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/cardsWizardOverlapButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Cards (Wizard Overlap)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/cardsExpandButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Cards (Expand)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/chipsBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Chips (Basic) (Insert Chip from list)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/chipsTagButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Chips (Tag)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/chipsGroupButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Chips (Group)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/chipsFilterButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Chips (filter) (Check)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/checkRadioBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Check Radio (Basic)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/checkRadioSwitchButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Check Radio (Switch)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/checkRadioParentChildButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Check Radio (Checkbox Parent Child)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/dialogBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Dialog (Basic) (Try Few Dialogs) (Confirmation, Alert, Single Choice, Multiple Choice)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/dialogCostumButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Dialog (Costum)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/dialogCostumInfoButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Dialog (Costum Info)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/dialogAddReviewButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Dialog (Costum Add Review)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/dialogGDPRBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Dialog (GDPR Basic) (Special Text)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/dialogHeaderButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Dialog (Header, Try Some Headers)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/dialogImageButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Dialog (Image)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/motionCardButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Motion (Card)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/motionListButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Motion (List)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/motionFABButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Motion (FAB View)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/expansionPanelInvoiceButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Expansion Panel (Invoice)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/expansionPanelTicketButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Expansion Panel (Ticket)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/gridTwoLineButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Grid (Two Line)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/gridSectionedButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Grid (Section)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/listSectionedButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="List (Sectioned)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/listAnimationButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="List (Animation) (Bottom Up, Fade In, Left to Right, Right to Left)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/listExpandButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="List (Expand)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/listDragButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="List (Dragable)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/listSwipeButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="List (Swipe)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/listMultiSelectionButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="List (Multi Selection)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/menuDrawerMailButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Menu (Drawer Mail)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/menuDrawerSimpleLightButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Menu (Drawer Simple Light)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/menuDrawerFilterButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Menu (Drawer Filter)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/menuDrawerAdminButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Menu (Drawer Admin)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/menuDrawerBottomButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Menu (Drawer Bottom)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/menuDrawerSliderSimpleButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Menu (Drawer Slider Simple)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/menuDrawerBackButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Menu (Drawer Back)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/bannerInfoButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Banner (Info)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/pickerDateLightButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Picker (Date Light)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/pickerTimeLightButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Picker (Time Light)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/pickerColorButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Picker (Color)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/pickerLocationButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Picker (Location)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/progressBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (Basic, Try Few Progress)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/progressLinearCenterButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (Linear Center)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/progressCircleCenterButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (Circle Center)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/progressOnScrollButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (On Scroll)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/progressPullRefreshButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (Pull Refresh)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/progressDotsBounceButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (Dot Bounce)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/progressButtonButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (Button)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-            <Button
-                android:id="@+id/progressButtonSideButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (Button Side)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/progressButtonPercentButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (Button Percent)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/progressButtonDoneButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Progress &amp; Activity (Button Done)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/sliderLightButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Slider (Light)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/sliderRangeButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Slider (Range)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/snackbarToastBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Snackbars &amp; Toasts (Basic, Try Some)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/toastCostumButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Snackbars &amp; Toasts (Toast Costum, Try Some)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/snackbarCostumButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Snackbars &amp; Toasts (Snackbar Costum, Try Some)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/stepperDotsButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Steppers (Dots)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/stepperVerticalButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Steppers (Vertical)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/stepperWizardLightButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Steppers (Wizard Light)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/tabsLightButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tabs (Light)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/tabsIconButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tabs (Icon)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/tabsScrollButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tabs (Scroll)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/tabsSimpleGreenButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tabs (Simple Green)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/tabsSimpleTopIndicatorButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tabs (Simple Top Indicator)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/formWithIconButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Form (With Icon)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/formSignUpCardButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Form (Sign Up Card)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/formSignUpImageOutlineButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Form (Sign Up Image Outline)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/formMaterialBasicButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Form (Material Basic)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/formMaterialIconButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Form (Material Icon)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/formMaterialPrefixSuffixButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Form (Prefix &amp; Suffix)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/toolbarCollapseButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Toolbars (Collapse)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-
-            <Button
-                android:id="@+id/toolbarCollapsePinButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Toolbars (Collapse And Pin)"
-                tools:layout_editor_absoluteX="115dp"
-                tools:layout_editor_absoluteY="275dp" />
-        </LinearLayout>
-    </ScrollView>
+        android:orientation="vertical"
+        android:padding="24dp">
+
+      <Button
+          android:id="@+id/bottomNavShiftingButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Bottom Navigation (Shifting)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/bottomNavBagdeBlinkButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Bottom Navigation (Bagde Blink)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/bottomNavAnimatedButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Bottom Navigation (Animated)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/bottomSheetFloatingButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Bottom Sheet (Floating)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/bottomSheetPlayerButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Bottom Sheet (Player)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/bottomSheetTransformButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Bottom Sheet (Transform)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/sideSheetBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Side Sheet (Basic)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/buttonsBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Buttons (Basic, Try Few Buttons)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/buttonsFABMoreTextButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Buttons (Fab More Text)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/buttonsMaterialButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Buttons (Material) (Group, Check icon, select icon)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/buttonsFABExpandButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Buttons (FAB Expand)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/buttonsBackdropNavButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Backdrop (Navigation)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/cardsBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Cards (Basic, Try Few Cards)(Full, 1/2 layout)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/cardsWizardOverlapButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Cards (Wizard Overlap)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/cardsExpandButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Cards (Expand)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/chipsBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Chips (Basic) (Insert Chip from list)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/chipsTagButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Chips (Tag)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/chipsGroupButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Chips (Group)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/chipsFilterButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Chips (filter) (Check)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/checkRadioBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Check Radio (Basic)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/checkRadioSwitchButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Check Radio (Switch)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/checkRadioParentChildButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Check Radio (Checkbox Parent Child)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/dialogBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Dialog (Basic) (Try Few Dialogs) (Confirmation, Alert, Single Choice, Multiple Choice)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/dialogCostumButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Dialog (Costum)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/dialogCostumInfoButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Dialog (Costum Info)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/dialogAddReviewButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Dialog (Costum Add Review)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/dialogGDPRBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Dialog (GDPR Basic) (Special Text)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/dialogHeaderButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Dialog (Header, Try Some Headers)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/dialogImageButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Dialog (Image)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/motionCardButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Motion (Card)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/motionListButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Motion (List)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/motionFABButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Motion (FAB View)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/expansionPanelInvoiceButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Expansion Panel (Invoice)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/expansionPanelTicketButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Expansion Panel (Ticket)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/gridTwoLineButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Grid (Two Line)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/gridSectionedButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Grid (Section)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/listSectionedButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="List (Sectioned)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/listAnimationButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="List (Animation) (Bottom Up, Fade In, Left to Right, Right to Left)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/listExpandButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="List (Expand)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/listDragButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="List (Dragable)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/listSwipeButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="List (Swipe)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/listMultiSelectionButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="List (Multi Selection)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/menuDrawerMailButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Menu (Drawer Mail)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/menuDrawerSimpleLightButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Menu (Drawer Simple Light)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/menuDrawerFilterButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Menu (Drawer Filter)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/menuDrawerAdminButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Menu (Drawer Admin)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/menuDrawerBottomButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Menu (Drawer Bottom)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/menuDrawerSliderSimpleButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Menu (Drawer Slider Simple)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/menuDrawerBackButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Menu (Drawer Back)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/bannerInfoButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Banner (Info)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/pickerDateLightButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Picker (Date Light)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/pickerTimeLightButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Picker (Time Light)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/pickerColorButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Picker (Color)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/pickerLocationButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Picker (Location)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/progressBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (Basic, Try Few Progress)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/progressLinearCenterButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (Linear Center)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/progressCircleCenterButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (Circle Center)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/progressOnScrollButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (On Scroll)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/progressPullRefreshButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (Pull Refresh)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/progressDotsBounceButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (Dot Bounce)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/progressButtonButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (Button)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+      <Button
+          android:id="@+id/progressButtonSideButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (Button Side)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/progressButtonPercentButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (Button Percent)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/progressButtonDoneButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Progress &amp; Activity (Button Done)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/sliderLightButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Slider (Light)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/sliderRangeButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Slider (Range)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/snackbarToastBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Snackbars &amp; Toasts (Basic, Try Some)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/toastCostumButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Snackbars &amp; Toasts (Toast Costum, Try Some)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/snackbarCostumButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Snackbars &amp; Toasts (Snackbar Costum, Try Some)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/stepperDotsButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Steppers (Dots)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/stepperVerticalButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Steppers (Vertical)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/stepperWizardLightButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Steppers (Wizard Light)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/tabsLightButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Tabs (Light)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/tabsIconButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Tabs (Icon)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/tabsScrollButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Tabs (Scroll)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/tabsSimpleGreenButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Tabs (Simple Green)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/tabsSimpleTopIndicatorButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Tabs (Simple Top Indicator)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/formWithIconButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Form (With Icon)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/formSignUpCardButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Form (Sign Up Card)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/formSignUpImageOutlineButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Form (Sign Up Image Outline)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/formMaterialBasicButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Form (Material Basic)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/formMaterialIconButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Form (Material Icon)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/formMaterialPrefixSuffixButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Form (Prefix &amp; Suffix)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/toolbarCollapseButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Toolbars (Collapse)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+
+      <Button
+          android:id="@+id/toolbarCollapsePinButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Toolbars (Collapse And Pin)"
+          tools:layout_editor_absoluteX="115dp"
+          tools:layout_editor_absoluteY="275dp" />
+    </LinearLayout>
+  </ScrollView>
 </LinearLayout>
